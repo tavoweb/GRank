@@ -79,9 +79,9 @@ function wp_rankie_do_this_daily() {
 		
 		$moving_forware_html .= '</table>';
 		$moving_backward_html .= '</table>';
-		$head="<h1>Rankie Report on $yesterdayDay - $yesterdayMonth </h1> <p>Below are keywords with rank changes during the last 24 hours recorded by wordpress rankie for wordpress</p>";
+		$head="<h1>GRank ataskaita - $yesterdayDay - $yesterdayMonth </h1> <p>Žemiau 24 valandų raktinių žodžių ataskaita.</p>";
 		
-		$emailTitle = "Rankie Report on $yesterdayDay - $yesterdayMonth";
+		$emailTitle = "GRank ataskaita - $yesterdayDay - $yesterdayMonth";
 		$emailBody = $head.$moving_forware_html . $moving_backward_html;
 		 
 		add_filter( 'wp_mail_content_type', 'wp_rankie_set_content_type' );
