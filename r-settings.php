@@ -661,9 +661,7 @@
 						
 							<tr>
 								<th scope="row"><label>Purchase Code</label></th>
-								<td><input class="widefat" name="wp_rankie_license" value="ѕ¢σяρισ"   type="text" readonly>
-
-									<div class="description">If you don't know what is your purchase code check this <a href="http://www.youtube.com/watch?v=eAHsVR_kO7A">video</a> on how to get it   .</div></td>
+								<td><input class="widefat" name="wp_rankie_license" value="TavoWEB"   type="text" readonly></td>
 							</tr>
 							
 							<?php if( isset($wp_rankie_active_error) && stristr($wp_rankie_active_error,	 'another')  ) {?>

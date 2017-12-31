@@ -17,7 +17,7 @@ function wp_ranker_control_menu() {
 	
 	
 	 
-	add_menu_page( 'WP Rankie', 'WP Rankie', $capability, 'wp_rankie', 'wp_rankie_dashboard_fn', 'dashicons-chart-area', 77777788877777 );
+	add_menu_page( 'GRank', 'GRank', $capability, 'wp_rankie', 'wp_rankie_dashboard_fn', 'dashicons-chart-area', 77777788877777 );
 	
 	$dashboardSlug=add_submenu_page( 'wp_rankie',  'Wordpress Rankie','Dashboard', $capability, 'wp_rankie', 'wp_rankie_dashboard_fn' );
 	
