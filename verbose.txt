@@ -1,0 +1,43 @@
+* About to connect() to www.google.com.au port 443 (#2)
+*   Trying 216.58.210.195...
+* Adding handle: conn: 0x202f5a0
+* Adding handle: send: 0
+* Adding handle: recv: 0
+* Curl_addHandleToPipeline: length: 1
+* - Conn 2 (0x202f5a0) send_pipe: 1, recv_pipe: 0
+* Connected to www.google.com.au (216.58.210.195) port 443 (#2)
+* successfully set certificate verify locations:
+*   CAfile: /opt/lampp/share/curl/curl-ca-bundle.crt
+  CApath: none
+* SSL connection using ECDHE-ECDSA-AES128-GCM-SHA256
+* Server certificate:
+* 	 subject: C=US; ST=California; L=Mountain View; O=Google Inc; CN=*.google.com
+* 	 start date: 2016-12-15 14:04:15 GMT
+* 	 expire date: 2017-03-09 13:35:00 GMT
+* 	 subjectAltName: www.google.com.au matched
+* 	 issuer: C=US; O=Google Inc; CN=Google Internet Authority G2
+* 	 SSL certificate verify ok.
+> GET /search?q=Mountainboards+Australia&btnG=Search&client=ubuntu&channel=fs&num=100 HTTP/1.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/601.5.17 (KHTML, like Gecko) Version/9.1 Safari/601.5.17
+Host: www.google.com.au
+Accept: */*
+Referer: https://www.google.com.au
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Date: Thu, 29 Dec 2016 13:03:50 GMT
+< Expires: -1
+< Cache-Control: private, max-age=0
+< P3P: CP="This is not a P3P policy! See https://www.google.com/support/accounts/answer/151657?hl=en for more info."
+* Server gws is not blacklisted
+< Server: gws
+< X-XSS-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+* Added cookie NID="93=GiR9a2z0t2yTJX9RAvEM-YGDyimdyoUUunlv2GXybANgjW3hh-t5-4qAQ420seAOLOCAXbccH6d0-bTU3UowVkoT8kMQvwBYFSyCc4nVaiN_BguwgHfK2GVdIoX6ed47" for domain google.com.au, path /, expire 1498827830
+< Set-Cookie: NID=93=GiR9a2z0t2yTJX9RAvEM-YGDyimdyoUUunlv2GXybANgjW3hh-t5-4qAQ420seAOLOCAXbccH6d0-bTU3UowVkoT8kMQvwBYFSyCc4nVaiN_BguwgHfK2GVdIoX6ed47; expires=Fri, 30-Jun-2017 13:03:50 GMT; path=/; domain=.google.com.au; HttpOnly
+< Alt-Svc: quic=":443"; ma=2592000; v="35,34"
+< Accept-Ranges: none
+< Vary: Accept-Encoding
+< Transfer-Encoding: chunked
+< 
+* Connection #2 to host www.google.com.au left intact

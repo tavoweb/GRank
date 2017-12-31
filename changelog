@@ -1,0 +1,86 @@
+@29 December 2016 v1.6.2
+Fix: http://www.example.com format for the url to check it's rank was reading the host as www now sorted
+Fix: Any from this domain now checked by default as forgetting to check it makes the plugin exact match
+
+@11 December 2016 v1.6.1
+Fix: Sorting 
+
+@3 December 2016 v1.6.0
+NEW: option to check a specific url rank at Google 
+NEW: bulk option to change group of selected keywords
+NEW: update interval option to update keywords daily, each two days, each three and so on.
+Fix: F-Secure method updated to cope with new f-secure changes
+Fix: Now when ordering keywords by rank, zero rank keywords appears at the bottom
+Fix: https urls added as the domain now get extracted correctly
+
+@12 September 2016
+Fix: Wrong calculations when rank goes to zero is now fixed at reports
+
+@1 June 2016 v1.5.0
+New: Google custom search api integrated
+New: Google via f-secure.com integrated
+Fix: Kproxy method updated
+Removed: disconnect method removed due to service no more supporting Google 
+Removed: Google ajax api method removed due to being fully deprecated
+
+@17 Feb 2016 v1.4.1
+Bug Fix:External cron stopped working at version 1.4.0, now fixed
+
+
+@14 Feb 2016 v1.4.0
+NEW: new method for rank locating method added via kproxy.com proxy
+NEW: new method for rank locating method added via disconnect.me proxy
+NEW: automatic updates support for future versions
+Fix: redirect_url for curl_getinfo on rare cases
+Imprvoed: now editors and authors can view dashboard
+Removed: ezmlm,whatsmyserp,zalmos methods removed
+
+
+@14 June 2015 v1.3.1
+Fix: Google method via Zalmos.com RTL google sites were sometimes miss ranks now fixed
+
+@30 APRIL 2015 v1.3.0
+NEW: new method added Google directly via proxy (Zalmos.com) 
+Fix: curl existence check added
+Fix: whatsmyserp method updated to cope with new changes
+Fix: keywords add pop position now centered 
+removed: ezmlm method 
+
+@8 Jan 2015 v1.2.4
+Maintenance: Google directly method started to report ip blocked (even if not blocked) now fixed.
+
+@9/10/2014 v1.2.3
+fix: whatsmyserp method stopped working now updated to work.
+fix: proxy unexpected reply case covered so it get deleted after 3 times
+fix: catch keyword feature fixed.
+New: proxify google request via gmodules
+fix: jQuery .attr('checked','checked') replaced by .prop
+fix: sorting by rank bug fix
+
+
+@5/7/2014 v1.2.2
+Fix: limit log to 100 records
+
+@16/6/2014 v1.2.1
+Fix: remove proxy when permissions denied now works
+
+
+@15/6/2014 v1.2.0
+Fix: whatsmyserp proxy service
+
+
+@28 May 2014  v1.1.0
+Fix: daily email
+Fix: ajax api via UI searchIndex
+Fix: Google direct and ajax api www. prefix
+Fix: Google ajax api via ui final index
+Fix: URL of ajax api via backend
+Fix: external cron job only 
+
+@3 MAY 2014  v1.0.1
+New: Daily Email Report
+Fix: bulk delete option now works fine
+Fix: keywords add/delete now more faster
+
+@28 APR 2014 v1.0.0
+Initial Release

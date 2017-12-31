@@ -1,0 +1,190 @@
+@media screen and (min-width: 782px) {
+
+	.bottom{
+		display:none;
+	}
+}
+
+
+@media screen and (max-width: 700px) {
+
+	#report_tables{
+	
+		width:100% !important;
+	}
+	
+	#pie_holder{
+		width:100% !important;
+	}
+}
+
+
+
+#download_button{
+	float:right;
+}
+
+#report_wrap{
+	margin-top:30px;
+}
+
+.report_head{
+	margin-top:10px;
+}
+
+.spin_wrap{
+	float:right;
+}
+
+#report_tables{
+	width:58%;
+	float:left;
+	padding-right:1%;
+}
+
+#pie_holder{ 
+ 	float: left;
+    padding-top: 70px;
+    position: relative;
+    width: 40%;
+}
+
+#report_pie_2{
+	margin-top:10px;
+}
+
+#report_map {
+	margin-top:20px;
+}
+
+#rankie-keywords tr:hover{
+	background:#ECFFB3 !important; 
+}
+
+.wp-rankie-keyword-text{
+	cursor:pointer;
+}
+
+.wp-rankie-keyword-text:hover{
+	font-weight:bold;	
+}
+
+#wp-rakie-chart caption{
+	padding:20px;
+}
+
+.wp-rankie-chart-contain{
+	width:100%;	
+	margin: 0 auto 20px;
+    
+}
+
+.wp-rakie-chart-site ,.wp-rakie-chart-keyword{
+	font-weight:bold;
+}
+
+.charts_title{
+	text-align:center;
+	padding-top:10px;
+}
+
+#rankie-keywords tr.odd{
+	background-color: #F9F9F9;
+}
+
+.updatedz{
+	width:20px;
+	height:20px;
+	margin:2px 10px 0;
+}
+
+.spinner{
+	float:left !important; 
+}
+
+.dataTable{
+	border:none !important;
+	box-shadow:none !important;
+}
+ 
+ .dataTables_scrollHead{
+ 	margin-top:10px;
+ }
+
+#rankie-keywords_info{
+	margin-top:10px;
+}
+
+.dataTables_scroll{
+	background:#FFFFFF;	
+}
+
+#rankie-keywords{
+	margin: 0;
+}
+
+.wp-rankie-search-box{
+	margin:0;
+	padding:0;
+	float:right;
+}
+
+#wp-rankie-table-add{
+	width:100%;
+}
+
+ #wp-rankie-table-add textarea , #wp-rankie-table-add .fwidth {
+	width:100%;
+}
+
+#wp-rankie-table-add td{
+	 vertical-align: top;
+}
+
+
+#wp-rankie-table-add{
+	padding:20px;
+}
+
+#rankie-keywords_filter{
+	float:left;
+	display:none;
+}
+
+#rankie-keywords_length{
+	float:right;
+	display:none;
+}
+
+#rankie-keywords_info{
+	float:right;
+}
+
+#rankie-keywords_paginate{
+	float:right;
+}
+
+#rankie-keywords_filter{
+	padding-bottom:10px;
+}
+
+#rankie-keywords_previous{
+	margin-left:5px;
+}
+
+#rankie-keywords_previous{
+	padding-right:5px;
+}
+
+#rankie-keywords_next , #rankie-keywords_previous{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+    padding: 0 10px 3px;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+
+#rankie-keywords_next:hover , #rankie-keywords_previous:hover{
+	background: none repeat scroll 0 0 #2EA2CC;
+    color: #FFFFFF;
+}
