@@ -19,14 +19,14 @@ function wp_ranker_control_menu() {
 	 
 	add_menu_page( 'GRank', 'GRank', $capability, 'wp_rankie', 'wp_rankie_dashboard_fn', 'dashicons-chart-area', 77777788877777 );
 	
-	$dashboardSlug=add_submenu_page( 'wp_rankie',  'Wordpress Rankie','Dashboard', $capability, 'wp_rankie', 'wp_rankie_dashboard_fn' );
+	$dashboardSlug=add_submenu_page( 'wp_rankie',  'TavoWEB GRank','Dashboard', $capability, 'wp_rankie', 'wp_rankie_dashboard_fn' );
 	
-	$reportsSlug = add_submenu_page( 'wp_rankie', 'Wordpress Rankie Reports', 'Reports', $capability, 'wp_rankie_reports', 'wp_rankie_reports_fn' );
-	$researchSlug = add_submenu_page( 'wp_rankie', 'Wordpress Rankie Keyword Research', 'Research', $capability, 'wp_rankie_research', 'wp_rankie_research' );
+	$reportsSlug = add_submenu_page( 'wp_rankie', 'TavoWEB GRank Reports', 'Reports', $capability, 'wp_rankie_reports', 'wp_rankie_reports_fn' );
+	$researchSlug = add_submenu_page( 'wp_rankie', 'TavoWEB GRank Keyword Research', 'Research', $capability, 'wp_rankie_research', 'wp_rankie_research' );
 	
-	$settingsSlug = add_submenu_page( 'wp_rankie', 'Wordpress Rankie Settings', 'Settings', 'administrator', 'wp_rankie_settings', 'wp_rankie_settings_fn' );
+	$settingsSlug = add_submenu_page( 'wp_rankie', 'TavoWEB GRank Settings', 'Settings', 'administrator', 'wp_rankie_settings', 'wp_rankie_settings_fn' );
 	
-	$logSlug = add_submenu_page( 'wp_rankie', 'Wordpress Rankie Log', 'Log', 'administrator', 'wp_rankie_log', 'wp_rankie_log' );
+	$logSlug = add_submenu_page( 'wp_rankie', 'TavoWEB GRank Log', 'Log', 'administrator', 'wp_rankie_log', 'wp_rankie_log' );
 	
 	
 	

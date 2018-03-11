@@ -3,10 +3,10 @@
 Plugin Name:GRank
 Plugin URI: https://github.com/tavoweb/grank
 Description: Wordpress google ranking tracking plugin
-Version: 1.6.4
+Version: 1.6.5
 GitHub Plugin URI: https://github.com/tavoweb/grank
 Author: TavoWEB 
-Author URI: https://tavoweb.lt
+Author URI: https://www.tavoweb.lt
 */
 
 

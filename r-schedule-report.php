@@ -50,8 +50,8 @@ function wp_rankie_do_this_daily() {
 		$rows=$wpdb->get_results($query );
 		
 		//getting moving forward & backward keywords
-		$moving_forware_html = '<br><h3>Went UP </h3><table><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
-		$moving_backward_html = '<br><h3>Went DOWN </h3><table><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
+		$moving_forware_html = '<br><h3>Pakilo </h3><table><thead><tr><th>Raktažodis</th><th>Dabartinis reitingas</th><th>Reitingo pasikeitimas</th><th>Domenas</th><th>Grupė</th> </tr></thead>';
+		$moving_backward_html = '<br><h3>Nukrito </h3><table><thead><tr><th>Raktažodis</th><th>Dabartinis reitingas</th><th>Reitingo pasikeitimas</th><th>Domenas</th><th>Grupė</th> </tr></thead>';
 		
 		
 		$printedKeys=array();
@@ -74,8 +74,8 @@ function wp_rankie_do_this_daily() {
 				
 		}
 		
-		if($positiveSum == 0 ) $moving_forware_html .= '<tr><td colspan="5" >No keywords moved up </td></tr>';
-		if($negativeSum == 0 ) $moving_backward_html .= '<tr><td colspan="5" >No keywords moved down </td></tr>';
+		if($positiveSum == 0 ) $moving_forware_html .= '<tr><td colspan="5" >Pakitimų nėra </td></tr>';
+		if($negativeSum == 0 ) $moving_backward_html .= '<tr><td colspan="5" >Pakitimų nėra </td></tr>';
 		
 		$moving_forware_html .= '</table>';
 		$moving_backward_html .= '</table>';

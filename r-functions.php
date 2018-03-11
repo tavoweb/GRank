@@ -2595,8 +2595,8 @@ function wp_rankie_generate_report($args){
 		
 		
 		//getting moving forward & backward keywords
-		$moving_forware_html = '<br><h3>Went UP </h3><table class="widefat"><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
-		$moving_backward_html = '<br><h3>Went DOWN </h3><table class="widefat"><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
+		$moving_forware_html = '<br><h3>Pakilo </h3><table class="widefat"><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
+		$moving_backward_html = '<br><h3>Nukrito </h3><table class="widefat"><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
 		 
 		
 		$query="SELECT distinct( wp_rankie_changes.keyword_id ) as single_keyword , keyword , keyword_rank , sum(rank_change) as total_rank_change  , keyword_site , keyword_group  FROM `wp_rankie_changes` ,`wp_rankie_keywords`   where wp_rankie_changes.keyword_id =  wp_rankie_keywords.keyword_id  and   year(date) ='{$year}' and month(date) = '{$month}'  $criteria    group by single_keyword order by total_rank_change DESC";
@@ -2688,8 +2688,8 @@ function wp_rankie_generate_report($args){
 		 
 		
 		//getting moving forward & backward keywords
-		$moving_forware_html = '<br><h3>Went UP </h3><table class="widefat"><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
-		$moving_backward_html = '<br><h3>Went DOWN </h3><table class="widefat"><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
+		$moving_forware_html = '<br><h3>Pakilo </h3><table class="widefat"><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
+		$moving_backward_html = '<br><h3>Nukrito </h3><table class="widefat"><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
 		 
 		
 		$query="SELECT distinct( wp_rankie_changes.keyword_id ) as single_keyword , keyword , keyword_rank , sum(rank_change) as total_rank_change  , keyword_site , keyword_group  FROM `wp_rankie_changes` ,`wp_rankie_keywords`   where wp_rankie_changes.keyword_id =  wp_rankie_keywords.keyword_id  and   year(date) ='{$year}'   $criteria    group by single_keyword order by total_rank_change DESC";
@@ -2763,8 +2763,8 @@ function wp_rankie_generate_report($args){
 		}
 		
 		//getting moving forward & backward keywords
-		$moving_forware_html = '<br><h3>Went UP </h3><table class="widefat"><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
-		$moving_backward_html = '<br><h3>Went DOWN </h3><table class="widefat"><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
+		$moving_forware_html = '<br><h3>Pakilo </h3><table class="widefat"><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
+		$moving_backward_html = '<br><h3>Nukrito </h3><table class="widefat"><thead><tr><th>Keyword</th><th>Current Rank</th><th>Rank Change</th><th>Domain name</th><th>Group</th> </tr></thead>';
 		 
 		if(trim( $criteria) != '') $criteria = ' and '.$criteria;
 		$query="SELECT distinct( wp_rankie_changes.keyword_id ) as single_keyword , keyword , keyword_rank , sum(rank_change) as total_rank_change  , keyword_site , keyword_group  FROM `wp_rankie_changes` ,`wp_rankie_keywords`   where wp_rankie_changes.keyword_id =  wp_rankie_keywords.keyword_id    $criteria    group by single_keyword order by total_rank_change DESC";

@@ -101,7 +101,7 @@
 	
 	$wp_rankie_research_gl = get_option('wp_rankie_research_gl' , 'google.com');
 	$wp_rankie_mail = get_option('wp_rankie_mail' , '');
-	$wp_rankie_screen= get_option('wp_rankie_screen' , '200');
+	$wp_rankie_screen= get_option('wp_rankie_screen' , '500');
 
 	$wp_keyword_tool_alphabets = get_option('wp_keyword_tool_alphabets' , 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z');
 
